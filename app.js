@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const _ = require("lodash");
 const { urlencoded } = require('body-parser');
 
-mongoose.connect("mongodb+srv://admin-leksyking:leksyking7@cluster0.3ssh9.mongodb.net/todolistDB")
+mongoose.connect("")
 
 const app = express()
 app.use(bodyParser.urlencoded({extended: true}));
